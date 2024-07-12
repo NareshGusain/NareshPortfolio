@@ -1,0 +1,390 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Naresh Gusain</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="{% static 'img/apple-touch-icon.png'%}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="{% static 'base/main.css'%}">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="{% static 'img/Ngsmall.jpg' %}" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Naresh Gusain</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/nareshgusain/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://x.com/nareshgusain00" class="twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+      <a href="https://github.com/NareshGusain" class="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/naresh__gusain/" class="instagram"><i class="bi bi-instagram"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="{% static 'img/Ng.jpg' %}" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Naresh Gusain</h2>
+        <p><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Machine Learning | Data Science | BackEnd</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>As a final-year B.Tech student majoring in Artificial Intelligence and Data Science at Thakur College of Engineering and Technology, I am eager to explore opportunities as a Data Analyst, Business Analyst, or Data Engineer. My diverse skill set and adaptability enable me to seamlessly transition into various roles within the data ecosystem, where I can leverage my technical expertise and passion for data-driven solutions.</p>
+      </div><!-- End Section Title -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content skills-animation">
+              <ul>
+                  <li><strong>Programming Languages:</strong> Python, C++, JavaScript, SQL, HTML, CSS</li>
+                  <li><strong>Libraries/Frameworks:</strong> TensorFlow, Scikit-Learn, NLTK, Pandas, NumPy, Plotly, Matplotlib, Bootstrap</li>
+                  <li><strong>Data Science:</strong> Exploratory Data Analysis (EDA), Data Visualization, Machine Learning, Neural Networks, Natural Language Processing (NLP)</li>
+                  <li><strong>Tools:</strong> Tableau, Git/GitHub, Firebase, Postman, Canva, MS Office</li>
+              </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Naresh Gusain</h4>
+              <p><em>A Final year B.Tech - AI & data science student looking for learing oppurtunites to grow and excel in my career</em></p>
+              <ul>
+                <li>Mumbai, Maharashtra, India</li>
+                <li>+91 9702503822</li>
+                <li>nareshgusain00@gmail.com.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology - Artificial Intelligence and Data Science</h4>
+              <h5>2021 - 2025</h5>
+              <p><em>Thakur College of Engineering and Technology, Mumbai</em></p>
+              <p>During my acadamics, I learned and developed my key skills by contributing to projects and working with my college communities</p>
+            </div><!-- Edn Resume Item -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Machine Learning Intern</h4>
+              <h5><em>3 Jan,2024 - 31 Jan, 2024 (On-site)</em></h5>
+              <p><em>Malad(W), Mumbai </em></p>
+              <ul>
+                <li>Developed Python scripts to automate Image and Video editing tasks</li>
+                <li>Contributed to a Convolutional Neural Network (CNN) project focused on handwriting detection.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Press Lead</h4>
+              <h5>Aug,2022 - May,2023</h5>
+              <p><em>Google Developer Student Clubs - Thakur College of Engineering and Technology</em></p>
+              <ul>
+                <li>Created diverse content for the college community GDSC - TCET, encompassing Collages, Event Flyers, Reels,
+                  Instagram Stories, and Headers.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+      </div><!-- End Section Title -->
+        <ul>
+            <h4><strong>Resume Parser and Scorer</strong></h4> <a href="https://github.com/NareshGusain/Resume_Parser_and_Scorer" target="_blank">(GitHub Link)</a>
+            <li>Developed a Flask application demonstrating proficiency in web application development and advanced Regex operations for data extraction.</li>
+            <li>Executed advanced Regex operations to meticulously extract skills and experience from resume PDFs, demonstratingprecise data extraction techniques</li> 
+            <li>Applied NLP to enhance skill and experience extraction accuracy and leveraged cosine similarity for precise job description alignment.</li>
+            <li>Leveraged cosine similarity as a robust metric to quantify the alignment between resume text and job description,ensuring a precise measure of compatibility.</li> <br><br>
+
+            <h4><strong>CryptoCurrency Price prediction using LSTM</strong></h4> <a href="https://github.com/NareshGusain/LSTM_Projects/tree/main/Bitcoin_price_predication" target="_blank">(GitHub Link)</a>
+            <li>Utilized the CryptoCompare API to gather comprehensive Bitcoin price data, ensuring accurate and up-to-date information for analysis.</li>
+            <li>Executed advanced Regex operations to meticulously extract skills and experience from resume PDFs, demonstrating precise data extraction techniques</li> 
+            <li>Developed and implemented a Long Short-Term Memory (LSTM) Neural Network model, showcasing proficiency inadvanced techniques for cryptocurrency price prediction.</li>
+            <li>Applied the Plotly library to create visually compelling charts illustrating cryptocurrency price trends over the past threeyears, providing valuable insights for analysis and decision-making</li> <br><br>
+
+            <h4><strong>Performed EDA on WhatsApp Group Chat</strong></h4> <a href="https://github.com/NareshGusain/Whatsapp_group_chat_analyser" target="_blank">(GitHub Link)</a>
+            <li>Performed data preprocessing, employing Regex operations to categorize data into distinct Date, Message, and Sender–name categories, improving data clarity and structure.</li>
+            <li> Conducted thorough Exploratory Data Analysis (EDA) on WhatsApp group chat data, demonstrating a keen analytical approach to extract meaningful insights.</li> 
+            <li>Uncovered valuable insights from the dataset, including the identification of the individual with the highest message count and a comprehensive analysis of overall message frequency within the group</li> <br><br>
+
+            <h4><strong>To-Do List Website using Django</strong></h4> <a href="https://github.com/NareshGusain/Django_learn/tree/main/Todo" target="_blank">(GitHub Link)</a>
+            <li>Created a to-do list web app using the Django framework.</li>
+            <li>Implemented features to add and delete tasks for user convenience</li> 
+            <li>Learned about Django file templates, directory structure, URL routing, views, models, and working with databases.</li><br><br>
+
+        </ul>
+
+
+    </section>
+
+      
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-file"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Resume Writing</a></h4>
+              <p class="description">I can create a brand-new resume or make necessary changes, tailored to your requirements, incorporating accurate keywords essential for the job role.
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-pen-ruler"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Graphic Designing</a></h4>
+              <p class="description">I offer the creation of posts, flyers, visiting cards, and various other types of assistance for your digital products at a reasonable price.
+
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-book"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Creating e-books</a></h4>
+              <p class="description">I can help you write and create your eBooks and design eye-catching book covers</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-broom"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Data Cleaning</a></h4>
+              <p class="description">I can help you clean and preprocess your data to ensure accuracy and reliability for your analyses and decision-making.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-database"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Creating Dashboards</a></h4>
+              <p class="description">I specialize in creating interactive and insightful dashboards using Power BI and Tableau, enabling you to visualize and understand your data effectively.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-robot"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">ML Model creation</a></h4>
+              <p class="description">I can develop machine learning models tailored to your specific needs, leveraging advanced algorithms and techniques to provide actionable insights and predictions.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Mumbai, Maharashtra, India</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call</h3>
+                  <p>+91 9702503822</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>nareshgusain00.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.505870633644!2d72.8777!3d19.0760!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce7277f607cb%3A0x22f687f5f4b5e6b2!2sMumbai!5e0!3m2!1sen!2sin!4v1625258303915!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+{% block js_block %}
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Main JS File -->
+<script type="text/javascript"  src="{% static 'script/base/main.js' %}"></script>
+{%endblock%}
+</body>
+</html>
