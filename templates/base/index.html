@@ -26,7 +26,9 @@
   <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link rel="stylesheet" href="{% static 'base/main.css'%}">
+  {%block css%}
+    <link rel="stylesheet" href="{% static 'base/main.css'%}">
+  {%endblock%}
 </head>
 
 <body class="index-page">
