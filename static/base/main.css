@@ -936,32 +936,32 @@ section,
 /*--------------------------------------------------------------
 # Products Section
 --------------------------------------------------------------*/
-.products-section {
+.container-products .products-section {
   padding: 60px 0;
   background-color: #f9f9f9;
 }
 
-.container-products {
+.container-products .container-products {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.section-title-products {
+.container-products .section-title-products {
   text-align: center;
   font-size: 2.5em;
   margin-bottom: 40px;
   color: #333;
 }
 
-.products-grid {
+.container-products .products-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
 
-.product-item {
+.container-products .product-item {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -971,7 +971,7 @@ section,
   transition: transform 0.3s;
 }
 
-.product-item:hover {
+.container-products .product-item:hover {
   transform: translateY(-10px);
 }
 
