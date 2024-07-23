@@ -58,6 +58,7 @@
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#products"><i class="fa-solid fa-paperclip"></i> Products</a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
@@ -115,7 +116,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
+        <h2>Resume</h2> <a href="{% static 'NareshGusain.pdf'%}" download><button type="button" class="btn btn-dark">Download Resume</button></a>
       </div><!-- End Section Title -->
       <div class="container">
 
@@ -126,7 +127,7 @@
 
             <div class="resume-item pb-0">
               <h4>Naresh Gusain</h4>
-              <p><em>A Final year B.Tech - AI & data science student looking for learing oppurtunites to grow and excel in my career</em></p>
+              <p><em>A Final year B.Tech - AI & data science student looking for learing opportunities to grow and excel in my career</em></p>
               <ul>
                 <li>Mumbai, Maharashtra, India</li>
                 <li>+91 9702503822</li>
@@ -280,6 +281,29 @@
 
     </section><!-- /Services Section -->
 
+    <section id="products" class="products-section">
+      <div class="container-products">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>My Products</h2>
+        </div>
+        <div class="products-grid">
+          <div class="product-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAuXKi0wm1hE-8nCJt9Y03Vtdza7-rMzA1il0_bc6NuDd33_tQckmTijWldlK5-sPErA&usqp=CAU" alt="Notion Template" class="product-img">
+            <h3 class="product-title">Notion Template</h3>
+            <p class="product-description">A customizable Notion template to organize your tasks and projects efficiently.</p>
+            <a class="product-link">Coming Soon</a>
+          </div>
+          <div class="product-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnbVWxv8ruBCJubk7ZmQzG558UukS8O8T7zg&s" alt="Canva Template" class="product-img">
+            <h3 class="product-title">Canva Template</h3>
+            <p class="product-description">A versatile Canva template for creating stunning social media posts and graphics.</p>
+            <a  class="product-link">Coming Soon</a>
+          </div>
+          <!-- Add more product items as needed -->
+        </div>
+      </div>
+    </section>
+    
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
